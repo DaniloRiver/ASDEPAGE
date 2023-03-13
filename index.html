@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ASDE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+   
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-offset="75px">
+    <!--Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img id="logo1" src="./assets/images/ww.png" alt="logo sitio" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#info2"  data-bs-spy="scroll" data-bs-target="#info2" data-offset="75px"
+                >Quienes somos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info" data-bs-spy="scroll" data-bs-target="#info" data-offset="75px">¿Qué hacemos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info2" data-bs-toggle="scroll" data-bs-target="#info2" data-offset="75px">Capacitaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-platzi" href="#conviertete-orador" data-bs-toggle="scroll" data-bs-target="conviertete-orador">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+    <!--Header -->
+
+    <!--Main -->
+    <main id="main">
+      <div
+        id="carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-pause="“false”"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/ni.png"
+              class="d-block w-100"
+              alt="Hawaii1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/nene.png"
+              class="d-block w-100"
+              alt="Hawaii2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/nina.png"
+              class="d-block w-100"
+              alt="Hawai3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/5.png"
+              class="d-block w-100"
+              alt="Hawaii2"
+            />
+          </div>
+          <div class="overlay carousel-caption">
+            <div class="container h-100">
+              <div class="row d-flex align-items-center h-100">
+                <div class="col-md-6 offset-md-6 text-center text-md-end">
+                  <h1 style="font-weight: bold;">ASDE</h1>
+                  <p class="d-none d-md-block">
+                    Bienvenidos a nuestra ONG enfocada en la educación infantil. Nos dedicamos a brindar oportunidades educativas de calidad a los niños y niñas más necesitados. Creemos que la educación es la clave para un futuro mejor y estamos comprometidos en hacer la diferencia en la vida 
+                    de los más pequeños. Juntos, podemos ayudar a construir un mundo mejor para todos.
+                  </p>
+                  <a href="#conviertete-orador" class="btn btn-outline-light1"  data-bs-spy="scroll" data-bs-target="#info" data-offset="75px">Contáctanos</a>
+                  <!-- <button type="button" class="btn btn-adegea" data-bs-toggle="modal" data-bs-target="#modalCompra">
+                    Comprar tickets -->
+                  </button>
+                  
+                </div>
+                <div id="redes" class="col-12 col-lg">
+                    <ul class="list-inline social-buttons">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa fa-facebook-square fa-lg" aria-hidden="true"  style="color:white"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fab fa-twitter fa-lg" style="color:white" ></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa-brands fa-whatsapp fa-lg "  style="color:white"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa-solid fa-phone fa-lg"  style="color:white"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa-solid fa-envelope fa-lg"  style="color:white" ></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Main -->
+
+
+        <!--Servicios-->
+    <section id="servicios" class="mt-4 mb-4 py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card card2 border-0">
+              <a href="#"><img
+                src="assets/images/1.png"
+                class="card-img-top"
+                alt="foto sacha"
+              /></a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Proyectos</h6>
+                <p class="card-text text-center">
+                  Conoce el trabajo desarrollado por nuestra organización.
+                </p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card card2 border-0">
+              <a href="#conviertete-orador"><img
+                src="assets/images/2.png"
+                class="card-img-top"
+                alt="foto sacha"
+              /></a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Contáctanos</h6>
+                <p class="card-text text-center">
+                  Contáctenos, estamos dispuestos a ayudarle en lo que necesite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card card2 border-0">
+              <a href="#place-time"><img
+                src="assets/images/3.png"
+                class="card-img-top"
+                alt="foto garantia"
+              /></a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Conócenos</h6>
+                <p class="card-text text-center">
+                  Productos de alta calidad con garantías de fabricante.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <!-- <div class="col">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="row mt-5">
+                <div class="col text-center">
+                    <h2 class="titulo">Productos Destacados</h2>
+                  <p class="card-text text-center">Busque y conozca algunos de los productos favoritos o preferidos por muchos de<br> nuestros clientes.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div> -->
+           
+        </div>
+        
+    </section>
+    <!--Servicio-->
+   
+    
+    <!--Speakers-->
+    <section id="speakers" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase" style="margin-bottom: 8px;">
+            <h2 style="font-weight: bold;">Areás de</h2>
+            <h2 style="font-weight: bold;">Especialización</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/ni.png"
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right">
+                  <span class="badge bg-warning text-dark">responsabilidad</span>
+                  <span class="badge bg-info text-dark">protección</span>
+                </div>
+                <h5 class="card-title">Responsabilidad en educación y proteccion social</h5>
+                <hr />
+                <p class="card-text" style="text-align: justify;">
+                    La Responsabilidad Social en Educación y Protección Social de la Niñez, adolescencia y
+                     juventud es un tema crucial para ASDE.
+                    <br/>
+                    <br/>
+
+                    ASDE trabaja en conjunto con comunidades y autoridades 
+                     locales para lograr un impacto significativo en la vida de los jóvenes, fomentando
+                      su participación activa en la construcción de una sociedad más justa y equitativa.&nbsp; 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/nina.png"
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right">
+                  <span class="badge bg-warning text-dark">formación</span>
+                  <span class="badge bg-info text-dark">inserción</span>
+                </div>
+                <h5 class="card-title mb-0">Formación para el trabajo e inserción laboral</h5>
+                <hr />
+                <p class="card-text" style="text-align: justify;font-size: medium;">
+                    ASDE promueve la capacitación de formación para el trabajo y 
+                    la inserción laboral como parte de su estrategia para fomentar el desarrollo integral 
+                    de jóvenes y adultos en situación de vulnerabilidad.
+                    <br/>
+                    A través de programas y cursos de 
+                    formación técnica, ASDE busca dotar a las personas de habilidades y conocimientos 
+                    necesarios para ingresar al mercado laboral y mejorar su calidad de vida.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/nene.png"
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right;">
+                  <span class="badge bg-warning text-dark">alfabetización</span>
+                  <span class="badge bg-info text-dark">programas</span>
+                </div>
+                <h5 class="card-title mb-0">Programas de alfabetización</h5>
+                <hr />
+                <p class="card-text" style="text-align: justify;font-size: medium;">
+                  La implementación de diversos programas de alfabetización 
+                    contribuyen a la educación de jóvenes y adultos en situación de vulnerabilidad. 
+                    <br/>
+                    <br/>
+                    Estos programas buscan fomentar la inclusión social y la igualdad de oportunidades
+                     a través de la formación académica, trabajar en conjunto con comunidades y autoridades 
+                     locales para identificar las necesidades específicas de cada zona.
+                      
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/6.png";
+                "
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right">
+                  <span class="badge bg-warning text-dark">autodeterminación</span>
+                  <span class="badge bg-info text-dark">vulnerables</span>
+                </div>
+                <h5 class="card-title">Fortalecimiento de capacidades para promover la autodeterminación en grupos vulnerables</h5>
+                <hr />
+                <p class="card-text" style="text-align: justify;font-size: medium;">
+                    Fortalecimiento de capacidades humanas para promover 
+                    la autodeterminación en grupos vulnerables y la igualdad en el ejercicio de sus derechos. 
+                    implementación de programas de formación y empoderamiento para jóvenes, 
+                    mujeres, adultos mayores, personas con discapacidad, pueblos originarios y diversidad de género y sexual. 
+                   
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/8.png"
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right">
+                  <span class="badge bg-warning text-dark">gestión</span>
+                  <span class="badge bg-info text-dark">sostenible</span>
+                </div>
+                <h5 class="card-title">Gestión de proyectos de desarrollo sostenible</h5>
+                <br/>
+                <br/>
+                <hr />
+                <p class="card-text" style="text-align: justify;font-size: medium;">
+                   Consultorías institucionales en gestión de proyectos de desarrollo sostenible,
+                     brindando servicios de evaluaciones externas, elaboración de líneas base, estrategias de sostenibilidad, 
+                     animación socio-cultural y sistematización de procesos, entre otros aspectos técnicos vinculantes 
+                     con el área educativa y social.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/images/9.png"
+                class="card-img-top"
+                alt="foto sacha"
+              />
+              <div class="card-body">
+                <div class="badges pb-2" style="text-align: right">
+                  <span class="badge bg-warning text-dark">poblaciones</span>
+                  <span class="badge bg-info text-dark">innovación</span>
+                </div>
+                <h5 class="card-title mb-0">Trabajo de poblaciones vulnerables para promover la innovación social</h5>
+                <hr />
+                <p class="card-text" style="text-align: justify;font-size: medium;">
+                    Trabaja en colaboración con grupos organizados de poblaciones vulnerables a 
+                    través de intervenciones socio educativas que promueven la innovación social, el emprendimiento y 
+                    la autogestión, fortalecer las capacidades de los participantes y fomentar 
+                    la creación de oportunidades económicas sostenibles en sus comunidades, 
+                    contribuyendo a su desarrollo integral y a la reducción de la pobreza. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Speakers-->
+
+    <!--Lugar y fecha-->
+    <section id="place-time" style=" scroll-margin-top: 140px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 ps-0 pe-0">
+            <img src="assets/images/13.png" alt="honolulu" />
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>Objetivos del Desarrollo Sostenible </h2>
+            <h3>4. Educación de Calidad</h3>
+            <p>
+                El acceso a una educación de calidad es fundamental para mejorar la vida de las personas y lograr un desarrollo sostenible.
+                 En América Latina y el Caribe, se han hecho avances importantes en la mejora del acceso a la educación, sobre todo para mujeres y 
+                 niñas, y en la alfabetización. Sin embargo, se necesitan más esfuerzos para alcanzar los objetivos de educación universal en todos 
+                 los niveles educativos. Aunque se ha alcanzado la igualdad entre niñas y niños en la educación primaria en todo el mundo,
+                 son pocos los países que han logrado esa igualdad en todos los niveles educativos.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Lugar y fecha-->
+
+      <!--Banner 1-->
+      <section id="info" class="bg-cover info-animate" style="background-image: url('assets/images/fondo1.jpg'); scroll-margin-top: 80px;">
+        <div class="container py-5">
+          <div class="row">
+            <div id="col-img" class="col-md-6">
+              <img src="assets/images/asdefondo.png" style="width: 100%; max-width: 400px; display: flex; padding-bottom: 5px; margin-right: auto; margin-left: 0;">
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-right text-white mb-4">Mensaje de ASDE</h2>
+              <p class="text-right text-white mb-5">
+                Nos enfocamos en la educación en Honduras como una herramienta para lograr la equidad y el desarrollo sostenible en este país. Creemos que todos los niños, niñas y jóvenes hondureños, independientemente de su origen o circunstancias, merecen una educación de calidad que les permita alcanzar su máximo potencial y contribuir al crecimiento y desarrollo del país.
+                <br>
+                <br>
+                Estamos comprometidos en trabajar con comunidades locales y gobiernos para garantizar que la educación sea accesible y de calidad para todos los niños y niñas en Honduras, con el objetivo de lograr un futuro más justo y sostenible para todos.
+                <br>
+                <br>
+                Únete a nosotros en nuestra misión de construir un mejor futuro para Honduras, comenzando con la educación de los más pequeños. Juntos podemos hacer la diferencia.
+              </p>
+              <a href="#conviertete-orador" class="btn btn-primary btn-lg text-right">Únete</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--Banner 1-->
+
+<!--Banner 2-->
+      <section id="info2" class="banner" style="scroll-margin-top: 106px;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6 pt-4 pb-4">
+              <h1>Título del banner</h1>
+              <p>Texto del banner alineado a la izquierda.</p>
+            </div>
+            <div class="col-12 col-lg-6 pt-4 pb-4" id="banner-col-img">
+              <img src="assets/images/5.png" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Banner 2-->
+
+      <!--Conviertete en speaker-->
+
+    <section id="conviertete-orador" class="pt-4 pb-4" style="scroll-margin-top: 106px;">
+      <div class="container">
+          <div class="row">
+              <div class="col  text-uppercase  text-center">
+                  <small>Comunicate con</small>
+                  <h2>Nosotros</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col text-center">
+                  Escribe tus datos personales y asunto a discutir <abbr title="Charla de 5 min" data-bs-toggle="tooltip">ignite</abbr>. Cuentanos de que quieres hablar!
+              </div>
+          </div>
+          <div class="row">
+              <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                  <div class="row">
+                      <div class="form-label col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                      </div>
+                      <div class="form-label col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                      </div>
+                    </div>
+                    <div class="form-row mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que quieres hablar?" rows="3"></textarea>
+                      <small class="form-text text-muted">
+                          Recuerde incluir la información requerida
+                      </small>
+                    </div>
+                    <div class="form-row">
+                      <div class="col  d-grid">
+                          <button type="button" class="btn btn-adegea btn-primary">Enviar</button>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Conviertete en speaker-->
+      
+
+    
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" style="margin-top: 50px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="assets/images/8.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/images/4.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="py-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="">Preguntas Frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="">Contactános</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="">Prensa</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="">Conferencias</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="">Terminos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="">Privacidad</a>
+            
+          </div>
+          <div class="col-12 col-lg">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer -->
+
+    <!--Modal-->
+    <div id="modalCompra" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Comprar tickets</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                    </div>
+                </div>
+              </form>
+              <div class="alert alert-warning" role="alert">
+                Recibiras un correo de confirmación si sales sorteado!
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-adegea">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Modal-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/1fc1b9c6fa.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+<!-- class="card-img-top rounded-circle" -->
