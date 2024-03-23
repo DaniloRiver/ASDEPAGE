@@ -276,10 +276,10 @@ body{
     transform: translateX(0);
   } */
 
-  .banner {
+  /* .banner {
     background-color: #f8f8f8;
     /* padding: 50px 0; */
-  }
+  
   #banner-col-img{
     background-size: cover;
   }
@@ -290,6 +290,8 @@ body{
     animation-duration: 1s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+    font-size: 14px; 
+    text-align: justify; 
   }
   
   @keyframes slide-in {
