@@ -104,7 +104,7 @@ body{
 }
 
 #footer{
-    background: linear-gradient(90deg,#1c3643,#273b47 50%,#1e5372);
+    background: #1d6466;
 }
 
 #footer a{
@@ -224,10 +224,11 @@ body{
   }
 
   .infologo{
-    display: flex;
+    /* display: flex;
     object-fit:cover;
     height:30%;
-    width: 100%;
+    width: 100%; */
+    border: 2px solid transparent; 
   }
 
   @keyframes slide-in1 {
