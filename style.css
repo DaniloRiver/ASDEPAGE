@@ -225,9 +225,9 @@ body{
 
   .infologo{
     display: flex;
-    object-fit: cover;
-    width: 900px;
-    height: 350px;
+    object-fit:cover;
+    height:40%;
+    width: 60%;
   }
 
   @keyframes slide-in1 {
