@@ -223,18 +223,13 @@ body{
     animation-fill-mode: forwards;    
   }
 
-  #infologo img{
+  .infologo img{
     display: flex;
     object-fit: cover;
     width: 900px;
     height: 350px;
   }
-  /* #info .col-img{
-    display: flex;
-    justify-content: center;
 
-  } */
-  
   @keyframes slide-in1 {
     from {
       transform: translateX(100%);
