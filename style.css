@@ -19,8 +19,8 @@ body{
 
 
 #header .navbar-brand img{
-    /* object-fit: cover; */
-    width: 250px; 
+    object-fit: cover;
+    width: 150px; 
     height: 80px;
 }
 
@@ -223,15 +223,17 @@ body{
     animation-fill-mode: forwards;    
   }
 
-  #info img{
-    border-radius: 10%;
-    
+  #infologo img{
+    display: flex;
+    object-fit: cover;
+    width: 900px;
+    height: 350px;
   }
-  #info .col-img{
+  /* #info .col-img{
     display: flex;
     justify-content: center;
 
-  }
+  } */
   
   @keyframes slide-in1 {
     from {
@@ -302,4 +304,10 @@ body{
       transform: translateX(0);
     }
   }
+
+  /* .logo1{
+    width: 100px;
+    height: 300px;
+    
+  } */
   
