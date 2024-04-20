@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
@@ -451,6 +453,260 @@
       </section>
       <!--Banner 2-->
 
+      <section class="container py-4">
+        <div class="row">
+          <div class="col text-center text-uppercase" style="margin-bottom: 8px;">
+            <hr style="border: none; height: 4px; background-color: white; margin: 1;">
+            <h2 style="font-weight: bold;color: white;">Tematicas</h2>
+            <h2 style="font-weight: bold; color: white;">de Experiencia</h2>
+            <hr style="border: none; height: 4px; background-color: white; margin: 1;">
+          </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Sistematización de experiencias
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: rgb(107, 204, 241); color: white;">
+                <ul>
+                  <li>Sistematización de experiencias de la selección de jueces y magistrados anticorrupción ASJ MACCIH (2017)</li>
+                  <li>Sistematización de Modelo de Intervención ECO 2 y del Proyecto de Rehabilitación y Reinserción PPL para IDLO Pastoral Penitencia (2020)</li>
+                  <li>Sistematización de experiencias incidencia y políticas publicas en SAN para SNV FOPRIDEH (2020)</li>
+                  <li>Sistematización de experiencias Programa Mesoamérica Sin Hambre AMEXID FAO (2022)</li>
+                  <li>Sistematización de experiencias Programa Global Casa Alianza Honduras (2023)</li>
+                  <li>Sistematización de experiencias atención a la niñez y juventud Red Coiproden (2024)</li>
+                  <li>Sistematización de experiencias de intervenciones en protección de grupos vulnerables durante pandemia Covid 19 Liga Lactancia Materna, Global Communities (2024)</li>
+                  <li>Sistematización de experiencias Escuelas de Transparencia Red Viva Honduras (2024)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Estudios de caso
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Identificación de casos de estudio bajo la metodología de cambios más significativos en atención a la niñez y su reinserción en el nivel prebásico y básico para Child Fund (2023)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Estudios Bioconductuales
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Conocimientos, actitudes y prácticas sobre VIH SIDA y uso del preservativo en población privada de libertad AMDA PNUD (2008)</li>
+                  <li>Estudio de género en el sector educación Agriteam Canada Consulting Proyecto FORTA (2015)</li>
+                  <li>Estudio CAP inicial sobre procesos democráticos, gobierno local y participación juvenil en municipios de Tela y La Ceiba (2017)</li>
+                  <li>Estudio CAP comparativo inicial y final de capacitaciones sobre gestión ética y transparencia, derechos laborales, salud y seguridad en ambientes de trabajo para Programa Reforcemos la Sostenibilidad Fundación Solidaridad Internacional (2022)</li>
+                </ul>
+              </div>              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Investigaciones encargadas
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Estudio Estado de la Educación en Honduras 2016 y 2017 COLPEDAGOGOSH (2017-2018)</li>
+                  <li>Estudio de violencia física y sexual en comunidad universitaria UNAH Médicos del Mundo (2022)</li>
+                  <li>Estudio de relación de género y degradación ambiental en la reservas de Biosfera Tawahka-Asagni y Biosfera Río Plátano WWF USAID (2022)</li>
+                  <li>Estudio de barreras que tienen los jóvenes para acceder a formación técnica profesional en el sistema de educación alternativa no formal CONEANFO COSUDE (2022)</li>
+                  <li>Estudio sobre calidad de los servicios públicos en Chamelecón y Rivera Hernández en San Pedro Sula Creative USAID Programa CARI (2023)</li>
+                  <li>Estudio sobre migrantes internacionales irregulares y migrantes retornados basados en datos abiertos FAS BID LAB (2023)</li>
+                  <li>Estudio sobre la violencia social en el sector salud Cruz Rojas Internacional CRIC (2023)</li>
+                  <li>Estudio sobre percepción de violencia entre la NNAJ COIPRODEN (2024)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Líneas de base
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Línea de Base y Diseño del Marco Estratégico y de Resultados para la Formulación del Proyecto COPs 4 en el Sector Educación (2016)</li>
+                  <li>Estudio de línea de base de uso público del Paseo Peatonal Liquidámbar y percepción sobre la ampliación del Paseo Liquidámbar desde MIN hasta Parque Herrera y Teatro Nacional Manuel Bonilla AECID, AMDC GCHAMDC (2017)</li>
+                  <li>Estudio de Línea de Base de Conocimientos, Actitudes y Prácticas sobre la participación juvenil en los Consejos Juveniles de Desarrollo y su incidencia en el Desarrollo Local Global Communities CHF (2017)</li>
+                  <li>Línea de Base de Programa Reforcemos la Sostenibilidad en el Subsector Palma en los departamentos de Colón, Atlántida, Cortés y Yoro Fundación Solidaridad (2021)</li>
+                  <li>Línea de Base de Programa Reforcemos la Sostenibilidad en el Subsector Café en los departamentos de Lempira, Copán, Ocotepeque Fundación Solidaridad (2021)</li>
+                </ul>
+              </div>              
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Evaluaciones Intermedias
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Evaluación Final del Proyecto Barrio Seguro, en las comunidades urbanas en Riesgo en las ciudades de Tegucigalpa y Comayagüela GOAL USAID OFDA (2018)</li>
+                  <li>Actualización de la Línea de Base, lectura del tercero de cuatro años del Convenio con AECID Mejora de la Gobernanza para el acceso a una alimentación nutrición adecuada de los colectivos vulnerables de diez municipios del Corredor Seco de Honduras JA, ISF, AdT AECID (2022)</li>
+                  <li>Evaluación intermedia Proyecto Potenciando el Espacio Cívico en Tiempos de Covid 19 ASJ VIVA Together (2022)</li>
+                </ul>
+              </div>              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Evaluaciones finales
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Evaluación de la implementación de la estrategia de sensibilidad al conflicto, capacitaciones, y estudios, con los implementadores de USAID Honduras, ejecutado por FHI-360 Integrity Global (2023)</li>
+                  <li>Evaluación externa de la Estrategia de País ACNUR Honduras Avicena Project ACNUR (2023)</li>
+                  <li>Evaluación final del Programa Desarrollo de la Fuerza Laboral Visión Mundial Honduras, USDOL (2024)</li>
+                  <li>Evaluación final Proyecto Protección de los Servicios de Salud Cruz Roja Hondureña (2024)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                Evaluaciones de impacto
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <p>Evaluación final incluyendo lectura de impactos tempranos del Proyecto Protección de los Servicios de Salud Cruz Roja Hondureña (2024)</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                Diseño curricular
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Diagnostico que justifique la creación de la carrera de Maestría Educación en Salud Universidad Pedagógica Nacional UPNFM (2009)</li>
+                  <li>Diseño curricular de la Maestría en Formación de Formadores UPNFM SICA CCE (2010)</li>
+                  <li>Diagnóstico que justifique la creación del técnico universitario en Urgencias Médicas Cruz Roja Hondureña UNITEC CEUTEC (2017)</li>
+                  <li>Diagnóstico que justifique la creación y plan de estudios de Tecnólogo en Gestión Migratoria AECID FLACSO INM (2019)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                Cursos Virtuales
+              </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Diseño de curso virtual sobre Monitoreo, evaluación y aprendizaje de la influencia para OXFAM Internacional y sus afiliadas (2022)</li>
+                  <li>Curso virtual en desplazamiento forzado con enfoque de género SEMUJER ACNUR (2023)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                Plataformas virtuales y aplicaciones
+              </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Diseño de un mapa de servicios digitales para migrantes en tránsito para Honduras, El Salvador y Guatemala FAS BID LAB (2023)</li>
+                  <li>Fortalecimiento del Observatorio Nacional de Género (ONAG) con módulo de desplazamiento forzado SEMUJER ACNUR (2024)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                Diagnóstico de Necesidades de Capacitación y Planes de Capacitación
+              </button>
+            </h2>
+            <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Capacitación a docentes en prevención de violencia de género en siete institutos de educación media AECID INAM (2012)</li>
+                  <li>Capacitación en bournout y manejo del estrés a personal de la policía nacional (2013)</li>
+                  <li>Capacitaciones sobre gestión ética y transparencia, Salud y seguridad ocupacional, derechos laborales a 1,200 colaboradores de empresas agroindustriales de Palma Aceitera Programa Reforcemos la Sostenibilidad Fundación Solidaridad (2021-2022)</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                Políticas, Programas, Planes, Estrategias y Desarrollo Organizacional
+              </button>
+            </h2>
+            <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style="background-color: skyblue; color: white;">
+                <ul>
+                  <li>Lineamientos estratégicos para la incidencia en la Política y Estrategia Nacional de Seguridad Alimentaria y Nutricional CDH SNV Proyecto Asociación Voz para el Cambio (2017)</li>
+                  <li>Diseño de estrategia comunicacional de trabajo no remunerado CARE (2017)</li>
+                  <li>Política y Plan de Derechos Humanos para el sector educación OIE SEDUC CONADEH (2017)</li>
+                  <li>Política Ambiental para la Dowal School (2019)</li>
+                  <li>Análisis jurídico sobre la Ley SAN y propuesta de un reglamento de las Mesas de seguridad alimentaria y nutricional (2018)</li>
+                  <li>Fortalecimiento de la investigación científica en las carreras agropecuarias UNAH-DICYT (2019)</li>
+                  <li>Plan estratégico 2021-2026 CEPROSAF (2020)</li>
+                  <li>Plan estratégico 2021-2026 Asociación Ingwaia CUSO Internacional (2020)</li>
+                  <li>Análisis legal que permita la integración del sector palmicultor Fundación Solidaridad (2020)</li>
+                  <li>Plan de desarrollo de país SUCO Internacional (2021)</li>
+                  <li>Código de ética para agencias de empleo privadas OIM SETRASS (2021)</li>
+                  <li>Política de Juventudes organizadas Plan Internacional (2021)</li>
+                  <li>Curso para autoridades universitarias y docentes en preparación para la creación de Política de Inclusión Educación Superior UNAH Médicos del Mundo (2021)</li>
+                  <li>Estrategias de Desarrollo Territorial Municipios de AMFI, MANLESIP y MANORCHO FAO (2022)</li>
+                  <li>Creación del marco conceptual y organizacional de la Unidad de pueblos indígenas y afro hondureños del INA Asociación Ingwaia (2022)</li>
+                  <li>Plan estratégico del Partido Democracia Cristiana de Honduras 2022-2026 NIMD Proyecto PROdemos (2022)</li>
+                  <li>Protocolo de atención a migrantes retornados Grupo ELFO ASONOG (2023)</li>
+                  <li>Desarrollo de planes de acción para migrantes en tránsito bajo un modelo de gobernanza migratoria OIM (2024)</li>
+                  <li>Presupuestos participativos y etiquetados de planes de acción de políticas municipales de protección de derechos de la niñez, adolescencia y juventud COIPRODEN (2024)</li>
+                  <li>Programa de desarrollo geriátrico gerontológico del Centro de atención integral para el docente jubilado y pensionado CAIDJP INPREMA (2024)</li>
+                </ul>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="place-time" style="scroll-margin-top: 140px; font-size: medium;" class="mt-4">
         <div class="container">
           <div class="row">
@@ -470,6 +726,25 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="mt-5">
+        <div id="contenedor-mapas" >
+          <div class="row">
+            <div class="col text-center text-uppercase" style="margin-bottom: 8px;">
+              <hr style="border: none; height: 4px; background-color: white; margin: 1;">
+              <h2 style="font-weight: bold;color: white;">Ubicacíon</h2>
+              <p style="font-size: medium;padding-top: 1px;color: white; display: flex; align-items: center;">
+                ASDE está ubicado en el Barrio La Hoya, 1era calle, 1era Avenida, Casa No. 808,
+                frente a Edificio de Apartamentos Rodelis, Tegucigalpa M.D.C., Honduras.
+             </p>
+              <hr style="border: none; height: 4px; background-color: white; margin: 1;">
+            </div>
+            <!-- <div class="col-12 col-lg-6 pt-4 pb-4"> -->
+                <div id="map"></div>
+            <!-- </div> -->
+        </div>
+        </div>      
       </section>
       
 
@@ -520,6 +795,8 @@
           </div>
       </div>
   </section>
+
+ 
 
   <!-- Conviertete en speaker -->
       
@@ -603,6 +880,7 @@
       </div>
     </footer>
     <!--Footer -->
+
 
      <!--Modal-->
      <div id="modalCompra" class="modal" tabindex="-1">
